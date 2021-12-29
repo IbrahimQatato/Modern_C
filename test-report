@@ -1,0 +1,7 @@
+Compiler commands that worked for me:
+
+gcc -std=c99 -Wall -lm getting-started getting-started.c
+
+c99 -Wall -o getting-started getting-started.c -lm
+
+-- Difference between bad.c and getting-started.c the elements in array 'A' are switched
