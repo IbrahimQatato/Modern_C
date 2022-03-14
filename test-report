@@ -5,3 +5,7 @@ gcc -std=c99 -Wall -lm getting-started getting-started.c
 c99 -Wall -o getting-started getting-started.c -lm
 
 -- Difference between bad.c and getting-started.c the elements in array 'A' are switched
+
+3.1
+    [Exs 2]
+     - if i has a value of 0 and is decremented by 1 it will get the maximum value of an unsigned int

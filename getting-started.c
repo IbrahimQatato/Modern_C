@@ -14,11 +14,12 @@ int main(void) {                                       /*@\label{main-start}*/
 
   // Doing some work                                   /*@\label{CPP-comment}*/
   for (size_t i = 0; i < 5; ++i) {                     /*@\label{for-loop}*/
+    if(i){
      printf("element %zu is %g, \tits square is %g\n", /*@\label{printf-start}*/
             i,
             A[i],
             A[i]*A[i]);                                /*@\label{printf-end}*/
-  }                                                    /*@\label{for-end}*/
-
+    }                                                    /*@\label{for-end}*/
+  }
   return EXIT_SUCCESS;                                 /*@\label{main-return}*/
 }                                                      /*@\label{main-end}*/
